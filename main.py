@@ -9,7 +9,7 @@ pmap = PointMap()
 display = Display()
 
 def main():
-	cap = cv2.VideoCapture("videos/test_video3.mp4")
+	cap = cv2.VideoCapture("videos/test_video1.mp4")
 
 	pcd = o3d.geometry.PointCloud()
 	visualizer = o3d.visualization.Visualizer()
